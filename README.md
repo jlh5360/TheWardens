@@ -1,6 +1,9 @@
 # ISTE-240_GroupProject
 
 
+NOTE:  BEFORE git add, commit, push MAKE SURE to git pull (PULL)
+
+
 Links:
   -  (ISTE240 Team Project Design Doc)  =  https://mycourses.rit.edu/d2l/le/content/977817/viewContent/8175433/View
   -  (ISTE240 Design Document Minimum Outline)  =  https://mycourses.rit.edu/d2l/le/content/977817/viewContent/8173723/View
