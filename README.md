@@ -1,4 +1,4 @@
-# ISTE-240---Group-Project
+# ISTE-240_GroupProject
 
 
 Links:
