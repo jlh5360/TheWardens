@@ -1,0 +1,18 @@
+#characters_list {
+    margin-left: 2.5em;
+}
+
+#unix_file_structure_diagram {
+    margin-left: 18.5em;
+}
+
+@media screen and (max-width: 768px) {
+    #characters_list {
+        margin-left: 8em;
+        text-align: left;
+    }
+
+    #unix_file_structure_diagram {
+        margin-left: -1.25em;
+    }
+}
