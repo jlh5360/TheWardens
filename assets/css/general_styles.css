@@ -3,8 +3,8 @@ body {
     font-size: 1em;
     margin: 2em;
     padding: 0em;
-    /* background-color: ;
-    color: ; */
+    background-color: white;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-    background-color: 023436;
+    background-color: #023436;
     
 }
 
