@@ -1,3 +1,10 @@
+#section {
+    text-align: center;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
 #getting_started {
     font-size: 18px;
+    margin-left: 31.25em;
 }

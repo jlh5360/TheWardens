@@ -26,9 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #logo {
-    /* background-color: aliceblue; */
     position: relative;
-    top: 2.5px;
+    top: 5px;
     margin-left: 1em;
 }
 
@@ -52,17 +51,11 @@ nav ul {
 }
 
 nav ul li {
-    /* background-color: lightblue; */
     font-size: 22px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    
-    /* padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em; */
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 nav ul li a {
@@ -84,6 +77,13 @@ nav ul li a {
 @media screen and (max-width: 768px) {
     nav {
         justify-content: center;
+    }
+
+    nav ul li {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
     }
 
     #content {
