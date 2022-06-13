@@ -5,6 +5,12 @@
 }
 
 #getting_started {
-    font-size: 18px;
-    margin-left: 31.25em;
+    font-size: 25px;
+    margin-left: 21.25em;
+}
+
+@media screen and (max-width: 768px) {
+    #getting_started {
+        margin-left: 0em;
+    }
 }
