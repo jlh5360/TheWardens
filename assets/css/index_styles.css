@@ -1,16 +1,90 @@
-#section {
+#home {
+    background-color: #70abaf;
+    height: fit-content;
+}
+
+#section1 {
     text-align: center;
-    margin-top: 8em;
+    margin-top: 12em;
     margin-bottom: 8em;
+}
+
+#section2 {
+    display: flex;
+}
+
+#mission_statement {
+    padding-right: 4em;
+}
+
+#prerequesities {
+    padding-left: 4em;
+}
+
+#mission_statement p {
+    width: 32em;
 }
 
 #getting_started {
     font-size: 25px;
-    margin-left: 21.25em;
+    margin-left: 25em;
+    padding: 0.25em;
+    background-color: #705d56;
+    color: white;
+    border-radius: 10px;
 }
 
+#getting_started:hover {
+    color: bisque;
+}
+
+/* ===================================================================================== */
+
+
+
+
+/* Mobile (MAX-WIDTH: 768px) =========================================================== */
+
 @media screen and (max-width: 768px) {
+    #content {
+        margin-left: 0em;
+    }
+
+    #section2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: -1em;
+    }
+
+    #section2 #prerequisites {
+        margin-left: -4em;
+    }
+    
     #getting_started {
         margin-left: 0em;
     }
 }
+
+/* ===================================================================================== */
+
+
+
+
+/* ===================================================================================== */
+
+@media screen and (max-width: 400px) {
+    #content {
+        margin-left: -6em;
+    }
+
+    #section2 {
+        margin-left: 2.25em;
+    }
+
+    #mission_statement p {
+        width: 25em;
+        margin-left: 0em;
+    }
+}
+
+/* ===================================================================================== */

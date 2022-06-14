@@ -1,3 +1,5 @@
+/* Body ================================================================================ */
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
@@ -5,7 +7,10 @@ body {
     padding: 0em;
     background-color: white;
     color: black;
+    z-index: 1;
 }
+
+/* ===================================================================================== */
 
 
 /* Headers ============================================================================= */
@@ -39,6 +44,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 1em;
 }
 
+#nav_bar {
+    position: fixed;
+    top: 2em;
+    width: 84.5em;
+    /* width: fit-content; */
+    z-index: 2;
+}
+
 nav {
     display: flex;
     background-color: #023436;
@@ -58,12 +71,18 @@ nav ul {
     align-content: center;
 }
 
-nav ul li {
+#home, nav ul li {
+    /* background-color: aliceblue; */
     font-size: 22px;
-    margin-top: 0.5em;
+    /* margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 2em; */
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 nav ul li a {
@@ -71,12 +90,39 @@ nav ul li a {
     color: white;
 }
 
-#tutorials, #references, #quizzes {
+/* .tag {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+} */
+
+/* .options li a {
+    display: none;
+} */
+
+#home, #tutorials, #references, #quizzes {
+    text-align: center;
+    width: 6em;
+    border-radius: 10px;
+    /* margin-left: 0.5em;
+    margin-right: 0.5em; */
+}
+
+.options {
     display: none;
 }
 
+#home:hover, #tutorials:hover, #references:hover, #quizzes:hover {
+    background-color: #70abaf;
+}
+
 #tutorials:hover, #references:hover, #quizzes:hover {
-    display: block;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-rows: auto; */
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+    cursor: pointer;
 }
 
 /* ===================================================================================== */
@@ -84,32 +130,75 @@ nav ul li a {
 
 /* Content ============================================================================= */
 
-#content {
+/* #content {
     width: 70em;
     position: relative;
     left: 5.20em;
-}
+} */
 
 #content p {
     width: 65em;
     margin-left: 2.5em;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* ===================================================================================== */
 
 
+/* Footer ============================================================================== */
+
+footer {
+    /* align-self: center; */
+}
+
+/* ===================================================================================== */
+
+
+
+
+/* Mobile (MAX-WIDTH: 768px) =========================================================== */
+
 @media screen and (max-width: 768px) {
+    /* Body ============================================================================ */
+
+    body {
+        text-align: center;
+    }
+
+    /* ================================================================================= */
+
+
     /* Navigation Bar ================================================================== */
+
+    #nav_bar {
+        width: 43em;
+        /* width: max-content; */
+        /* width: fit-content; */
+    }
 
     nav {
         justify-content: center;
     }
 
     nav ul li {
-        margin-top: 0.5em;
+        /* margin-top: 0.5em;
         margin-bottom: 0.5em;
         margin-left: 1.5em;
-        margin-right: 1.5em;
+        margin-right: 1.5em; */
+        
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    #home, #tutorials, #references, #quizzes {
+        width: 4em;
+        margin-left: 0em;
+        margin-right: 0em;
     }
 
     /* ================================================================================= */
@@ -122,6 +211,9 @@ nav ul li a {
         text-align: center;
         position: relative;
         left: 4em;
+        /* margin-left: -6em; */
+        margin-left: 1em;
+        /* margin-right: 3em; */
     }
 
     #content p {
@@ -129,5 +221,99 @@ nav ul li a {
         margin-left: 0em;
     }
 
-    /* ================================================================================== */
+    /* ================================================================================= */
 }
+
+/* ===================================================================================== */
+
+
+
+
+/* Mobile (MAX-WIDTH: 400px) =========================================================== */
+
+@media screen and (max-width: 400px) {
+    /* Body ============================================================================ */
+
+    body {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    /* ================================================================================= */
+    
+
+    /* Navigation Bar ================================================================== */
+
+    #logo {
+        display: none;
+    }
+
+    #nav_bar {
+        /* width: 43em; */
+        /* width: max-content; */
+        width: 32em;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    #home, nav ul {
+        margin-left: -1.5em;
+        margin-right: 1.5em;
+    }
+
+    #home {
+        margin-right: 0em;
+        margin-left: -0.75em;
+    }
+
+    #home, nav ul li {
+        font-size: 28px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+        position: relative;
+        left: 0.5em;
+    }
+
+    #home, #tutorials, #references, #quizzes {
+        width: 5em;
+    }
+
+    /* ================================================================================= */
+
+
+    /* Content ========================================================================= */
+
+    #content {
+        width: 30em;
+        text-align: center;
+        position: relative;
+        left: 4em;
+        margin-left: -6em;
+        /* margin-right: 3em; */
+    }
+
+    #content p {
+        width: 25em;
+        margin-left: 2.5em;
+        /* margin: 1em; */
+    }
+
+    /* ================================================================================= */
+
+    
+    /* ================================================================================= */
+
+    footer {
+        text-align: center;
+        width: 7em;
+        margin-left: 9.5em;
+    }
+
+    /* ================================================================================= */
+}
+
+/* ===================================================================================== */
