@@ -25,10 +25,10 @@
                 <div id="prerequisites">
                     <h2>Prerequisites</h2>
                     <p>
-                        There are no necessary prior skills to understanding Unix.  However, if you 
-                        do have some exposure to Operating Systems and their functionalities or basic 
-                        knowledge of computers will help you in understanding the various exercises 
-                        given in this tutorial.
+                        There are no necessary prior skills to understanding Unix.  But, if you 
+                        do have some exposure to Operating Systems and their functionalities or 
+                        basic knowledge of computers will help you in understanding the various 
+                        exercises given in this tutorial.
                     </p>
                 </div><br>
             </div><br><br>
