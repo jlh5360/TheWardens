@@ -35,9 +35,11 @@
 
             <button onclick="location.href='getting_started.php';" id="getting_started">Getting Started!</button><br><br>
 
-            <h2>Unix Syllabus</h2>
-            <div>
+            <div id="unix_syllabus">
+                <h2>Unix Syllabus</h2>
+                <div>
 
+                </div>
             </div>
         </div>
 
