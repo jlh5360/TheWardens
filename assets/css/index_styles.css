@@ -14,15 +14,19 @@
 }
 
 #mission_statement {
-    padding-right: 4em;
+    padding-right: 2.5em;
 }
 
-#prerequesities {
-    padding-left: 4em;
+#prerequisites {
+    padding-left: 2.5em;
 }
 
 #mission_statement p {
     width: 32em;
+}
+
+#prerequisites p {
+    width: 27.5em;
 }
 
 #getting_started {
