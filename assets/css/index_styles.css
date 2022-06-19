@@ -27,7 +27,7 @@
 
 #getting_started {
     font-size: 25px;
-    margin-left: 25em;
+    margin-left: 21.5em;
     padding: 0.25em;
     background-color: #705d56;
     color: white;
@@ -35,7 +35,7 @@
 }
 
 #getting_started:hover {
-    color: bisque;
+    background-color: #9f8f89;
 }
 
 /* ===================================================================================== */

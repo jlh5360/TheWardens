@@ -130,11 +130,11 @@ nav ul li a {
 
 /* Content ============================================================================= */
 
-/* #content {
+#content {
     width: 70em;
     position: relative;
     left: 5.20em;
-} */
+}
 
 #content p {
     width: 65em;
