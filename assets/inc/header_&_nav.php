@@ -15,7 +15,7 @@
                 <li id="home"><a href="index.php">Home</a></li>
                 
                 <div class="tag">
-                    <li id="tutorials">Getting Started</li>
+                    <li id="getting_started"><a href="getting_started.php">Getting Started</a></li>
                     <div class="options">
                         <!-- in the quotes (href) add link to the page on solace this added the "is current" color change in php -->
                         <a class="link <?php echo((isset($page) && $page=='gettingstarted')? ' active"' : ''); ?>   " href="">What is Unix?</a> 
