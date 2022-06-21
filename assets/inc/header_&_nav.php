@@ -12,6 +12,8 @@
             <img src="assets/img/wardens_logo.png" id="logo" width="85" height="70" alt="Wardens logo">
 
             <ul>
+                <hr>
+
                 <li id="home"><a href="index.php">Home</a></li>
                 
                 <hr>
@@ -49,5 +51,7 @@
                         <li><a href="">4</a></li>
                     </div>
                 </div>
+
+                <hr>
             </ul>
         </nav>
