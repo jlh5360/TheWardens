@@ -1,3 +1,15 @@
+/* Container Trick Keep Things on page (no extending on left or)
+ -RT */
+
+#content {
+    margin: auto;
+    margin-top: 120px;
+    width: 95%;
+    max-width: 1000px;
+    padding: 10px;
+    
+}
+
 /* Body ================================================================================ */
 
 body {
@@ -130,7 +142,7 @@ nav ul li a {
 
 /* Content ============================================================================= */
 
-#content {
+/* #content {
     width: 70em;
     position: relative;
     left: 5.20em;
@@ -139,7 +151,7 @@ nav ul li a {
 #content p {
     width: 65em;
     margin-left: 2.5em;
-}
+} */
 
 button:hover {
     cursor: pointer;

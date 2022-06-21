@@ -5,14 +5,14 @@
 ?>
 
         <div id="content">
-            <div id="section1">
+            <div id="welcome">
                 <h1>Welcome</h1>
 
                 <h2>Learn Unix for Web Development</h2>
             </div>
 
-            <div id="section2">
-                <div id="mission_statement">
+            <div id="mission_statement">
+                
                     <h2>Mission Statement</h2>
                     <p>
                         The Wardens is a site dedicated to teaching Unix to users with all levels 
@@ -20,9 +20,10 @@
                         development.  We strive for the information to be easy to comprehend while 
                         also challenging the users' knowledge.
                     </p>
-                </div><br>
-                
-                <div id="prerequisites">
+            </div>
+            
+            <div id="prerequisites">
+               
                     <h2>Prerequisites</h2>
                     <p>
                         There are no necessary prior skills to understanding Unix.  But, if you 
@@ -30,7 +31,8 @@
                         basic knowledge of computers will help you in understanding the various 
                         exercises given in this tutorial.
                     </p>
-                </div><br>
+                
+            </div>  
             </div><br><br>
 
             <button onclick="location.href='getting_started.php';" id="getting_started">Getting Started!</button><br><br>

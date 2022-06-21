@@ -3,31 +3,37 @@
     height: fit-content;
 }
 
-#section1 {
-    text-align: center;
-    margin-top: 12em;
-    margin-bottom: 8em;
+/* grid */
+
+#content{ 
+    display:grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
 }
 
-#section2 {
-    display: flex;
+#welcome {
+    grid-column: 1/3;
+    grid-row: 1/2;
 }
+
 
 #mission_statement {
-    padding-right: 2.5em;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 #prerequisites {
-    padding-left: 2.5em;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
-#mission_statement p {
+/* #mission_statement p {
     width: 32em;
 }
 
 #prerequisites p {
     width: 27.5em;
-}
+} */
 
 #getting_started {
     font-size: 25px;
