@@ -14,6 +14,8 @@
             <ul>
                 <li id="home"><a href="index.php">Home</a></li>
                 
+                <hr>
+
                 <div class="tag">
                     <li id="getting_started"><a href="getting_started.php">Getting Started</a></li>
                     <div class="options">
@@ -23,6 +25,8 @@
                         <a class="link <?php echo((isset($page) && $page=='terminal')? ' active"' : ''); ?>   " href="">Terminal</a>
                     </div>
                 </div>
+
+                <hr>
                 
                 <div class="tag">
                     <li id="references">References</li>
@@ -33,6 +37,8 @@
                         <li><a href="">4</a></li>
                     </div>
                 </div>
+
+                <hr>
                 
                 <div class="tag">
                     <li id="quizzes">Quizzes</li>
