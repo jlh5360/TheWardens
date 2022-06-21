@@ -18,12 +18,7 @@
     grid-template-columns: 1fr;
 }
 
-#mission_statement p {
-    /* width: 32em; */
-    width: 27.5em;
-}
-
-#prerequisites p {
+#mission_statement p, #prerequisites p {
     width: 27.5em;
 }
 
