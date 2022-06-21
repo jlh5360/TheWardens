@@ -15,12 +15,12 @@
                 <li id="home"><a href="index.php">Home</a></li>
                 
                 <div class="tag">
-                    <li id="tutorials">Tutorials</li>
+                    <li id="tutorials">Getting Started</li>
                     <div class="options">
-                        <li><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="">4</a></li>
+                        <!-- in the quotes (href) add link to the page on solace this added the "is current" color change in php -->
+                        <a class="link <?php echo((isset($page) && $page=='gettingstarted')? ' active"' : ''); ?>   " href="">What is Unix?</a> 
+                        <a class="link <?php echo((isset($page) && $page=='filestructure')? ' active"' : ''); ?>   " href="">File Structure</a>
+                        <a class="link <?php echo((isset($page) && $page=='terminal')? ' active"' : ''); ?>   " href="">Terminal</a>
                     </div>
                 </div>
                 

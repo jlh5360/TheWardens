@@ -27,7 +27,7 @@
             <img src="assets/img/unixfilestructurediagram.png" width="600" height="600" alt="Unix files structure diagram" id="unix_file_structure_diagram">
         
         
-            <h3>Filenames (sub head)</h3>
+            <h2>Filenames</h2>
             <p>
                 All files have a name. The names for files can reach up to 255 characters long. No two names in a directory 
                 are the same. If files are in separate directories they can share the same name. In Unix, the operating 
@@ -52,11 +52,11 @@
                 go in-depth about this in a later section.
             </p>
 
-            <h3>Pathnames (sub head)</h3>
+            <h2>Pathnames</h2>
             <p>
-
+                Every file has a pathname. A pathname is a statement of the location of a file or other item in a 
+                hierarchy of directories. 
             </p><br>
-
 
 </body>
 </html>
