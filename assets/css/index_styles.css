@@ -5,10 +5,14 @@
 
 /* grid */
 
-#content { 
+#content {
     display:grid; 
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 30px;
+}
+
+#welcome {
+    text-align: center;
 }
 
 #section {
