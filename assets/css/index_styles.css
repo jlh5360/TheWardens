@@ -17,7 +17,8 @@
 }
 
 #mission_statement p {
-    width: 32em;
+    /* width: 32em; */
+    width: 27.5em;
 }
 
 #prerequisites p {
@@ -26,7 +27,7 @@
 
 #getting_started_button {
     font-size: 25px;
-    margin-left: 11.5em;
+    margin-left: 5.5em;
     padding: 0.25em;
     width: 8em;
     background-color: #705d56;
