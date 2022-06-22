@@ -1,5 +1,5 @@
 <?php
-    $page = 'Homepage';
+    $page = 'Homepage'
     $css = 'index_styles.css';
     include 'assets/inc/header_&_nav.php';
 ?>
