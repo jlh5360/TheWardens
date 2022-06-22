@@ -1,6 +1,7 @@
 <?php
 $page = 'Basic Commands';
 $css = 'basic_commands_styles.css';
+$script = '';
 include 'assets/inc/header_&_nav.php';
 ?>
 

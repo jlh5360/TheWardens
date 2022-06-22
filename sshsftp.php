@@ -1,6 +1,7 @@
 <?php 
     $page = 'SSH and SFTP';
     $css = 'subpage.css';
+    $script = '';
     include 'assets/inc/header_&_nav.php';
 ?>
 

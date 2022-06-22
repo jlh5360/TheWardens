@@ -1,6 +1,7 @@
 <?php
     $page = 'Homepage';
     $css = 'index_styles.css';
+    $script = '';
     include 'assets/inc/header_&_nav.php';
 ?>
 

@@ -1,6 +1,7 @@
 <?php
 	$page = 'Getting Started';
     $css = 'getting_started_styles.css';
+    $script = '';
 	include 'assets/inc/header_&_nav.php';
 ?>
 
@@ -82,7 +83,7 @@
 
             <h2>Terminal</h2>
             <p>
-                
+
             </p><br><br>
         </div>
 

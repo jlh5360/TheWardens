@@ -1,6 +1,7 @@
 <?php 
     $page = 'Permissions';
     $css = 'permissions_styles.css';
+    $script = '';
     include 'assets/inc/header_&_nav.php';
 ?>
 
