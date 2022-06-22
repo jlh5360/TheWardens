@@ -141,7 +141,6 @@ nav ul {
 
 .options {
     display: none;
-    color: white;
     /* background-color: #70abaf; */
     border-radius: 10px;
     /* overflow: hidden; */
@@ -150,6 +149,7 @@ nav ul {
 .options li a {
     display: block;
     text-decoration: none;
+    color: white;
 }
 
 .tag:hover .options {
