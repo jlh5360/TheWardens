@@ -23,10 +23,10 @@
                     <li id="getting_started" class="tag_option"><a href="getting_started.php">Getting Started</a></li>
                     <div class="options">
                         <!-- in the quotes (href) add link to the page on solace this added the "is current" color change in php -->
-                        <li><a class="link <?php echo((isset($page) && $page=='gettingstarted')? ' active"' : ''); ?>   " href="">What is Unix?</a></li>
-                        <li><a class="link <?php echo((isset($page) && $page=='filestructure')? ' active"' : ''); ?>   " href="">File Structure</a></li>
-                        <li><a class="link <?php echo((isset($page) && $page=='terminal')? ' active"' : ''); ?>   " href="">Terminal</a></li>
-                        <li><a class="link <?php echo((isset($page) && $page=='sshsftp')? ' active"' : ''); ?>   " href="">SSH and SFTP</a></li>
+                        <li><a class="link <?php echo((isset($page) && $page=='gettingstarted')? ' active"' : ''); ?>   " href="https://solace.ist.rit.edu/~iste240t02/">What is Unix?</a></li>
+                        <li><a class="link <?php echo((isset($page) && $page=='filestructure')? ' active"' : ''); ?>   " href="https://solace.ist.rit.edu/~iste240t02/">File Structure</a></li>
+                        <li><a class="link <?php echo((isset($page) && $page=='terminal')? ' active"' : ''); ?>   " href="https://solace.ist.rit.edu/~iste240t02/">Terminal</a></li>
+                        <li><a class="link <?php echo((isset($page) && $page=='sshsftp')? ' active"' : ''); ?>   " href="https://solace.ist.rit.edu/~iste240t02/">SSH and SFTP</a></li>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@
                     <div class="options">
                         <li><a href="basic_commands.php">Basic Commands</a></li>
                         <li><a href="permissions.php">Permissions</a></li>
-                        <!-- <li><a href="sshsftp.php">SSH and SFTP</a></li> -->
+                        
                     </div>
                 </div>
 
