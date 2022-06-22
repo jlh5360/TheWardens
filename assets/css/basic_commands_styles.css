@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
 #subnav {
     list-style: none;
     border: 1px solid black;
@@ -27,9 +27,13 @@ html {
     height: 100%;
 }
 
-sublink {
+.sub a{ 
     text-decoration: none;
-    color: black;
+    color:black;
+}
+
+.sub a:hover{ 
+    color:#70abaf;
 }
 
 /* to top button -- taken from w3schools */

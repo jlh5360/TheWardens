@@ -36,13 +36,13 @@ include 'assets/inc/header_&_nav.php';
     </script>
 
     <ul id="subnav">
-        <li class="sub"><a class="sublink" href="#ls"></a>ls</li>
-        <li class="sub"><a class="sublink" href="#cat"></a>cat</li>
-        <li class="sub"><a class="sublink" href="#cd"></a>cd</li>
-        <li class="sub"><a class="sublink" href="#chmod"></a>chmod</li>
-        <li class="sub"><a class="sublink" href="#mkdir"></a>mkdir</li>
-        <li class="sub"><a class="sublink" href="#rmdir"></a>rmdir</li>
-        <li class="sub"><a class="sublink" href="#cp"></a>cp</li>
+        <li class="sub"><a href="#ls">ls</a></li>
+        <li class="sub"><a href="#cat">cat</a></li>
+        <li class="sub"><a href="#cd">cd</a></li>
+        <li class="sub"><a href="#chmod">chmod</a></li>
+        <li class="sub"><a href="#mkdir">mkdir</a></li>
+        <li class="sub"><a href="#rmdir">rmdir</a></li>
+        <li class="sub"><a href="#cp">cp</a></li>
     </ul>
 
     <div id="section">
