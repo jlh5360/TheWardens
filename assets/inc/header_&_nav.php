@@ -12,9 +12,11 @@
             <img src="assets/img/wardens_logo.png" id="logo" width="85" height="70" alt="Wardens logo">
 
             <ul>
+                <hr id="horizontal_line_1">
+
                 <li id="home"><a href="index.php">Home</a></li>
                 
-                <hr id="horizontal_line_1">
+                <hr id="horizontal_line_2">
 
                 <div class="tag">
                     <li id="getting_started" class="tag_option"><a href="getting_started.php">Getting Started</a></li>
@@ -26,7 +28,7 @@
                     </div>
                 </div>
 
-                <hr id="horizontal_line_2">
+                <hr id="horizontal_line_3">
                 
                 <div class="tag">
                     <li id="references" class="tag_option">References</li>
@@ -38,7 +40,7 @@
                     </div>
                 </div>
 
-                <hr id="horizontal_line_3">
+                <hr id="horizontal_line_4">
                 
                 <div class="tag">
                     <li id="quizzes" class="tag_option">Quizzes</li>
@@ -49,5 +51,7 @@
                         <li><a href="">4</a></li>
                     </div>
                 </div>
+
+                <hr id="horizontal_line_5">
             </ul>
         </nav>
