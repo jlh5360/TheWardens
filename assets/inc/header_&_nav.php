@@ -23,6 +23,7 @@
                         <li><a class="link <?php echo((isset($page) && $page=='gettingstarted')? ' active"' : ''); ?>   " href="">What is Unix?</a></li>
                         <li><a class="link <?php echo((isset($page) && $page=='filestructure')? ' active"' : ''); ?>   " href="">File Structure</a></li>
                         <li><a class="link <?php echo((isset($page) && $page=='terminal')? ' active"' : ''); ?>   " href="">Terminal</a></li>
+                        <li><a class="link <?php echo((isset($page) && $page=='sshsftp')? ' active"' : ''); ?>   " href="">SSH and SFTP</a></li>
                     </div>
                 </div>
 

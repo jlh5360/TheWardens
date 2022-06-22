@@ -1,6 +1,7 @@
 <?php
 	$page = 'Getting Started';
-    // $css = 'getting_started_styles.css';
+    $css = 'getting_started_styles.css';
+    $css = 'subpage.css';
 	include 'assets/inc/header_&_nav.php';
 ?>
 
