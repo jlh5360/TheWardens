@@ -149,7 +149,7 @@ nav ul {
 .options li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: #aaaf9d;
 }
 
 .tag:hover .options {
