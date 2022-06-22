@@ -57,6 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav_bar {
+    background-color: #023436;
+    color: white;
+    overflow: hidden;
     position: fixed;
     top: 2em;
     width: 84.5em;
@@ -66,8 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     display: flex;
-    background-color: #023436;
-    color: white;
     margin: -2em;
     margin-bottom: 4em;
 }
@@ -111,6 +112,20 @@ nav ul {
     grid-template-rows: auto;
 } */
 
+.tag {
+    float: left;
+}
+
+#nav_bar, .tag {
+    overflow: hidden;
+}
+
+.tag .tag_option {
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+}
+
 /* .options li a {
     display: none;
 } */
@@ -126,6 +141,18 @@ nav ul {
 
 .options {
     display: none;
+    background-color: #70abaf;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.options li a {
+    display: block;
+    text-decoration: none;
+}
+
+.tag:hover .options {
+    display: block;
 }
 
 #home:hover, #getting_started:hover, #references:hover, #quizzes:hover {
@@ -133,11 +160,7 @@ nav ul {
 }
 
 #getting_started:hover, #references:hover, #quizzes:hover {
-    display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
-    /* grid-template-rows: auto; */
-    grid-template-columns: auto;
-    grid-template-rows: repeat(4, 1fr);
+    display: block;
     cursor: pointer;
 }
 
