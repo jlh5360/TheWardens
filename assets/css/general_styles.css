@@ -101,7 +101,7 @@ nav ul {
     padding-right: 2em;
 }
 
-#home a, #getting_started a, #options a {
+#home a, #getting_started a, #tutorials a, #options a {
     text-decoration: none;
     color: white;
 }
@@ -130,7 +130,7 @@ nav ul {
     display: none;
 } */
 
-#home, #getting_started, #references, #quizzes {
+#home, #getting_started, #tutorials, #references, #quizzes {
     text-align: center;
     width: 7em;
     /* width: fit-content; */
@@ -155,11 +155,11 @@ nav ul {
     display: block;
 }
 
-#home:hover, #getting_started:hover, #references:hover, #quizzes:hover {
+#home:hover, #getting_started:hover, #tutorials:hover, #references:hover, #quizzes:hover {
     background-color: #70abaf;
 }
 
-#getting_started:hover, #references:hover, #quizzes:hover {
+#getting_started:hover, #tutorials:hover, #references:hover, #quizzes:hover {
     display: block;
     cursor: pointer;
 }
@@ -233,7 +233,7 @@ button:hover {
         padding-right: 1.5em;
     }
 
-    #home, #getting_started, #references, #quizzes {
+    #home, #getting_started, #tutorials, #references, #quizzes {
         width: 4em;
         margin-left: 0em;
         margin-right: 0em;
@@ -316,7 +316,7 @@ button:hover {
         left: 0.5em;
     }
 
-    #home, #getting_started, #references, #quizzes {
+    #home, #getting_started, #tutorials, #references, #quizzes {
         width: 5em;
     }
 
