@@ -81,7 +81,9 @@
 
 
             <h2>Terminal</h2>
-            <p></p><br><br>
+            <p>
+                
+            </p><br><br>
         </div>
 
 <?php

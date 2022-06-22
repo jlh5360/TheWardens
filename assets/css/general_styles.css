@@ -34,11 +34,11 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 32px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,6 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav_bar {
+    background-color: #023436;
+    color: white;
+    overflow: hidden;
     position: fixed;
     top: 2em;
     width: 84.5em;
@@ -66,14 +69,14 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     display: flex;
-    background-color: #023436;
-    color: white;
     margin: -2em;
     margin-bottom: 4em;
 }
 
 nav ul {
     display: flex;
+    text-decoration: none;
+    color: white;
 }
 
 nav ul {
@@ -85,6 +88,7 @@ nav ul {
 
 #home, nav ul li {
     /* background-color: aliceblue; */
+    text-decoration: none;
     font-size: 22px;
     /* margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -97,7 +101,7 @@ nav ul {
     padding-right: 2em;
 }
 
-#options a {
+#home a, #getting_started a, #options a {
     text-decoration: none;
     color: white;
 }
@@ -108,13 +112,28 @@ nav ul {
     grid-template-rows: auto;
 } */
 
+.tag {
+    float: left;
+}
+
+#nav_bar, .tag {
+    overflow: hidden;
+}
+
+.tag .tag_option {
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+}
+
 /* .options li a {
     display: none;
 } */
 
-#home, #tutorials, #references, #quizzes {
+#home, #getting_started, #references, #quizzes {
     text-align: center;
-    width: 6em;
+    width: 7em;
+    /* width: fit-content; */
     border-radius: 10px;
     /* margin-left: 0.5em;
     margin-right: 0.5em; */
@@ -122,18 +141,26 @@ nav ul {
 
 .options {
     display: none;
+    /* background-color: #70abaf; */
+    border-radius: 10px;
+    /* overflow: hidden; */
 }
 
-#home:hover, #tutorials:hover, #references:hover, #quizzes:hover {
+.options li a {
+    display: block;
+    text-decoration: none;
+}
+
+.tag:hover .options {
+    display: block;
+}
+
+#home:hover, #getting_started:hover, #references:hover, #quizzes:hover {
     background-color: #70abaf;
 }
 
-#tutorials:hover, #references:hover, #quizzes:hover {
-    display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
-    /* grid-template-rows: auto; */
-    grid-template-columns: auto;
-    grid-template-rows: repeat(4, 1fr);
+#getting_started:hover, #references:hover, #quizzes:hover {
+    display: block;
     cursor: pointer;
 }
 
@@ -198,7 +225,7 @@ button:hover {
         padding-right: 1.5em;
     }
 
-    #home, #tutorials, #references, #quizzes {
+    #home, #getting_started, #references, #quizzes {
         width: 4em;
         margin-left: 0em;
         margin-right: 0em;
@@ -281,7 +308,7 @@ button:hover {
         left: 0.5em;
     }
 
-    #home, #tutorials, #references, #quizzes {
+    #home, #getting_started, #references, #quizzes {
         width: 5em;
     }
 
