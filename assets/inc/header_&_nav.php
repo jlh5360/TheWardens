@@ -36,7 +36,7 @@
                     <div class="options">
                         <li><a href="basic_commands.php">Basic Commands</a></li>
                         <li><a href="permissions.php">Permissions</a></li>
-                        <li><a href="sshsftp.php">SSH and SFTP</a></li>
+                        <!-- <li><a href="sshsftp.php">SSH and SFTP</a></li> -->
                     </div>
                 </div>
 
