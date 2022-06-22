@@ -30,9 +30,9 @@
                 </div>
 
                 <hr id="horizontal_line_3">
-                
+
                 <div class="tag">
-                    <li id="references" class="tag_option">References</li>
+                    <li id="tutorials" class="tag_option">Tutorials</li>
                     <div class="options">
                         <li><a href="">1</a></li>
                         <li><a href="">2</a></li>
@@ -44,7 +44,7 @@
                 <hr id="horizontal_line_4">
                 
                 <div class="tag">
-                    <li id="quizzes" class="tag_option">Quizzes</li>
+                    <li id="references" class="tag_option">References</li>
                     <div class="options">
                         <li><a href="">1</a></li>
                         <li><a href="">2</a></li>
@@ -54,5 +54,17 @@
                 </div>
 
                 <hr id="horizontal_line_5">
+                
+                <div class="tag">
+                    <li id="quizzes" class="tag_option">Quizzes</li>
+                    <div class="options">
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                    </div>
+                </div>
+
+                <hr id="horizontal_line_6">
             </ul>
         </nav>
