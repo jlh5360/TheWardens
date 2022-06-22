@@ -1,6 +1,6 @@
 <?php 
     $page = 'Basic Commands';
-    $css = 'basic.css';
+    $css = 'basic_commands_styles.css';
     include 'assets/inc/header_&_nav.php';
 ?>
 
@@ -187,13 +187,6 @@
                     <p>chmod 644 dirname</p>
                     <p>Give the file’s owner read, write and execute permissions, read and execute permissions to group members and no permissions to all other users:</p>
                     <p>chmod 750 dirname</p>
-
-                    <!-- <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul> -->
                 </div><br>
 
                 <div id="mkdir">
