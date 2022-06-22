@@ -141,7 +141,7 @@ nav ul {
 
 .options {
     display: none;
-    background-color: #70abaf;
+    /* background-color: #70abaf; */
     border-radius: 10px;
     /* overflow: hidden; */
 }
