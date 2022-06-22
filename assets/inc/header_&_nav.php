@@ -14,22 +14,22 @@
             <ul>
                 <li id="home"><a href="index.php">Home</a></li>
                 
-                <hr>
+                <hr id="horizontal_line_1">
 
                 <div class="tag">
-                    <li id="getting_started"><a href="getting_started.php">Getting Started</a></li>
+                    <li id="getting_started" class="tag_option"><a href="getting_started.php">Getting Started</a></li>
                     <div class="options">
                         <!-- in the quotes (href) add link to the page on solace this added the "is current" color change in php -->
-                        <a class="link <?php echo((isset($page) && $page=='gettingstarted')? ' active"' : ''); ?>   " href="">What is Unix?</a> 
-                        <a class="link <?php echo((isset($page) && $page=='filestructure')? ' active"' : ''); ?>   " href="">File Structure</a>
-                        <a class="link <?php echo((isset($page) && $page=='terminal')? ' active"' : ''); ?>   " href="">Terminal</a>
+                        <li><a class="link <?php echo((isset($page) && $page=='gettingstarted')? ' active"' : ''); ?>   " href="">What is Unix?</a></li>
+                        <li><a class="link <?php echo((isset($page) && $page=='filestructure')? ' active"' : ''); ?>   " href="">File Structure</a></li>
+                        <li><a class="link <?php echo((isset($page) && $page=='terminal')? ' active"' : ''); ?>   " href="">Terminal</a></li>
                     </div>
                 </div>
 
-                <hr>
+                <hr id="horizontal_line_2">
                 
                 <div class="tag">
-                    <li id="references">References</li>
+                    <li id="references" class="tag_option">References</li>
                     <div class="options">
                         <li><a href="">1</a></li>
                         <li><a href="">2</a></li>
@@ -38,10 +38,10 @@
                     </div>
                 </div>
 
-                <hr>
+                <hr id="horizontal_line_3">
                 
                 <div class="tag">
-                    <li id="quizzes">Quizzes</li>
+                    <li id="quizzes" class="tag_option">Quizzes</li>
                     <div class="options">
                         <li><a href="">1</a></li>
                         <li><a href="">2</a></li>
