@@ -20,8 +20,8 @@
 
                     <table>
                         <tr>
-                            <th>Column #</th>
-                            <th>Description</th>
+                            <th><strong>Column #</strong></th>
+                            <th><strong>Description</strong></th>
                         </tr>
 
                         <tr>
