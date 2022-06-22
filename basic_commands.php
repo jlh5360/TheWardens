@@ -4,26 +4,19 @@ $css = 'basic_commands_styles.css';
 include 'assets/inc/header_&_nav.php';
 ?>
 
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-</div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-<script>
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
 
 <div id="content">
     <h1>Basic Commands</h1>
+
+    <ul id="subnav">
+        <li class="sub"><a class="sublink" href="#ls"></a>ls</li>
+        <li class="sub"><a class="sublink" href="#cat"></a>cat</li>
+        <li class="sub"><a class="sublink" href="#cd"></a>cd</li>
+        <li class="sub"><a class="sublink" href="#chmod"></a>chmod</li>
+        <li class="sub"><a class="sublink" href="#mkdir"></a>mkdir</li>
+        <li class="sub"><a class="sublink" href="#rmdir"></a>rmdir</li>
+        <li class="sub"><a class="sublink" href="#cp"></a>cp</li>
+    </ul>
 
     <div id="section">
         <div id="ls">
