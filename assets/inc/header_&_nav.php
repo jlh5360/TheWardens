@@ -34,10 +34,9 @@
                 <div class="tag">
                     <li id="tutorials" class="tag_option">Tutorials</li>
                     <div class="options">
-                        <li><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="">4</a></li>
+                        <li><a href="basic_commands.php">Basic Commands</a></li>
+                        <li><a href="permissions.php">Permissions</a></li>
+                        <li><a href="sshsftp.php">SSH and SFTP</a></li>
                     </div>
                 </div>
 
