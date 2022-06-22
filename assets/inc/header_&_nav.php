@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/general_styles.css">
         <link rel="stylesheet" href="assets/css/<?php echo $css;?>">
+        <script type="text/javascript" src="assets/js/<?php echo $script;?>"></script>
     </head>
     <body>
         <nav id="nav_bar">
