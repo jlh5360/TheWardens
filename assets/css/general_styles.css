@@ -167,6 +167,10 @@ nav ul li {
 .options li a {
     display: block;
     text-decoration: none;
+    color: #565b39;
+}
+
+.options li a:hover {
     color: #aaaf9d;
 }
 
