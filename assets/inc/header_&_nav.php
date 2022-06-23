@@ -7,6 +7,10 @@
         <link rel="stylesheet" href="assets/css/general_styles.css">
         <link rel="stylesheet" href="assets/css/<?php echo $css;?>">
         <script type="text/javascript" src="assets/js/<?php echo $script;?>"></script>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto:wght@100&display=swap');
+        </style>
     </head>
     <body>
         <nav id="nav_bar">
