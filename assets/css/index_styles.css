@@ -24,6 +24,10 @@
     padding-right: 0.5em; */
 }
 
+#quiz_header {
+    margin-top: 8em;
+}
+
 #section {
     display: grid;
     grid-template-columns: 1fr;
