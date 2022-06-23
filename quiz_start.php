@@ -37,10 +37,10 @@
     <p id="quizStatus"></p>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" id="quizForm" onsubmit="checkAnswer1()">
         <label for="perm1">Answer 1 </label>
-        <input type="checkbox" id="perm1" name="permissions" value="potential_answer1"/><br>
+        <input type="checkbox" id="perm1" name="permissions" value="Read"/><br>
         <label for="perm2">Answer 2 </label>
-        <input type="checkbox" id="perm2" name="permissions" value="potential_answer2"/><br>
+        <input type="checkbox" id="perm2" name="permissions" value="Write"/><br>
         <label for="perm3">Answer 3 </label>
-        <input type="checkbox" id="perm3" name="permissions" value="potential_answer3"/><br>
+        <input type="checkbox" id="perm3" name="permissions" value="Execute"/><br>
     </form>
 </div>
