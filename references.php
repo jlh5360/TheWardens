@@ -1,6 +1,6 @@
 <?php
     $page = 'References';
-    $css = 'index_styles.css';
+    $css = 'references_styles.css';
     $script = '';
     include 'assets/inc/header_&_nav.php';
 ?>
@@ -8,7 +8,7 @@
         <div id="content">
             <h1>References</h1>
             
-            <div id="section">
+            <div id="list">
                 <li><a href="https://www.guru99.com/unix-linux-tutorial.html">UNIX / Linux Tutorial for Beginners: Learn Online in 7 days (guru99.com)</a></li>
                 <li><a href="https://www.guru99.com/must-know-linux-commands.html">Basics Linux/Unix Commands with Examples & Syntax (List)</a></li>
                 <li><a href="https://www.softwaretestinghelp.com/ls-command-in-unix/">Ls Command in Unix with Syntx and Options and Practical Examples</a></li>
