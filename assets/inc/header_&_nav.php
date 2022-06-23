@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="assets/css/<?php echo $css;?>">
         <script type="text/javascript" src="assets/js/<?php echo $script;?>"></script>
 
+        <link rel="icon" type="image/x-icon" href="/assets/img/wardens_icon.ico">
+
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto:wght@300&display=swap');
         </style>
