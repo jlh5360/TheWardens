@@ -167,6 +167,10 @@ nav ul li {
 .options li a {
     display: block;
     text-decoration: none;
+    color: #565b39;
+}
+
+.options li a:hover {
     color: #aaaf9d;
 }
 
@@ -194,7 +198,7 @@ nav ul li {
     height: 31.25px;
 } */
 
-#horizontal_line_1 {
+#horizontal_line_1, #horizontal_line_6 {
     height: 31.25px;
 }
 

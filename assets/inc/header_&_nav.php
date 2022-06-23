@@ -41,18 +41,14 @@
                 <div class="tag">
                     <li id="tutorials" class="tag_option">Tutorials</li>
                     <div class="options">
-                        <li><a href="basic_commands.php">Basic Commands</a></li>
+                        <li><a href="basic_commands.php">Basic</a></li>
                         <li><a href="permissions.php">Permissions</a></li>
                         
                     </div>
                 </div>
 
                 <hr id="horizontal_line_4">
-                
-                <li id="references" class="tag_option"><a href="references.php">References</a></li>
 
-                <hr id="horizontal_line_5">
-                
                 <div class="tag">
                     <li id="quizzes" class="tag_option">Quizzes</li>
                     <div class="options">
@@ -62,6 +58,10 @@
                         <li><a href="">4</a></li>
                     </div>
                 </div>
+
+                <hr id="horizontal_line_5">
+                
+                <li id="references" class="tag_option"><a href="references.php">References</a></li>
 
                 <hr id="horizontal_line_6">
             </ul>
