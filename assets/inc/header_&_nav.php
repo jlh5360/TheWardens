@@ -52,10 +52,11 @@
                 <div class="tag">
                     <li id="quizzes" class="tag_option">Quizzes</li>
                     <div class="options">
-                        <li><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="">4</a></li>
+                        <li><a href="quiz_start.php">start</a></li>
+                        <li><a href="quiz_cd.php">cd</a></li>
+                        <li><a href="quiz_moddir.phph">moddir</a></li>
+                        <li><a href="quiz_modfiles">modfiles</a></li>
+                        <!-- <li><a href="quiz_">5</a></li> -->
                     </div>
                 </div>
 
