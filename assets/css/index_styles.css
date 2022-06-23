@@ -25,7 +25,8 @@
 }
 
 #quiz_content {
-    margin-top: 8em;
+    position: relative;
+    top: 8em;
 }
 
 #section {
