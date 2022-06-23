@@ -48,11 +48,7 @@
                 </div>
 
                 <hr id="horizontal_line_4">
-                
-                <li id="references" class="tag_option"><a href="references.php">References</a></li>
 
-                <hr id="horizontal_line_5">
-                
                 <div class="tag">
                     <li id="quizzes" class="tag_option">Quizzes</li>
                     <div class="options">
@@ -62,6 +58,10 @@
                         <li><a href="">4</a></li>
                     </div>
                 </div>
+
+                <hr id="horizontal_line_5">
+                
+                <li id="references" class="tag_option"><a href="references.php">References</a></li>
 
                 <hr id="horizontal_line_6">
             </ul>
