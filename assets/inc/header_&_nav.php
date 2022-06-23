@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/general_styles.css">
         <link rel="stylesheet" href="assets/css/<?php echo $css;?>">
-        <script type="text/javascript" src="assets/js/<?php echo $script;?>"></script>
+        <script type="text/javascript" defer src="assets/js/<?php echo $script;?>"></script>
 
         <link rel="icon" type="image/x-icon" href="/assets/img/wardens_icon.ico">
 

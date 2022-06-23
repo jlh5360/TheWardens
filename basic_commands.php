@@ -1,7 +1,7 @@
 <?php
 $page = 'Basic Commands';
 $css = 'basic_commands_styles.css';
-$script = '';
+$script = 'totop.js';
 include 'assets/inc/header_&_nav.php';
 ?>
 
@@ -11,30 +11,7 @@ include 'assets/inc/header_&_nav.php';
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <h1>Basic Commands</h1>
 
-    <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-
+    
     <ul id="subnav">
         <li class="sub"><a href="#ls">ls</a></li>
         <li class="sub"><a href="#cat">cat</a></li>

@@ -1,11 +1,14 @@
 <?php
 $page = 'Getting Started';
 $css = 'getting_started_styles.css';
-$script = '';
+$script = 'totop.js';
 include 'assets/inc/header_&_nav.php';
 ?>
 
 <div id="content">
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <div id="section1">
         <h1>Getting Started</h1>
         <p>
@@ -81,9 +84,9 @@ include 'assets/inc/header_&_nav.php';
     </p>
 
     <p>
-        A file can either have a full, also known as an absolute, pathname, or a relative pathname. Full paths give the entire 
-        pathname and point the computer to the same location no matter what the working directory is. It is always given in reference to 
-        the root directory. A relative path gives only part of the pathname. This leaves the computer to “assume” that the file is in the 
+        A file can either have a full, also known as an absolute, pathname, or a relative pathname. Full paths give the entire
+        pathname and point the computer to the same location no matter what the working directory is. It is always given in reference to
+        the root directory. A relative path gives only part of the pathname. This leaves the computer to “assume” that the file is in the
         same directory as the working directory.
     </p>
 
