@@ -21,31 +21,31 @@
     }
 </script>
 
-<h1>Modifying Directories Quiz</h1>
+<h1>Modifying Files Quiz</h1>
 <h2>Question 1</h2>
-<p>What does the following command do? <br> <em>chmod u+x filename</em></p>
+<p>What is the correct format for the cp command?</p>
 <form>
     <div id="a1">
-        <label for="answer1">Allows all users permission to execute the file</label>
+        <label for="answer1">cp source destination</label>
         <input type="radio" id="answer1" name="q1"/><br>
     </div>
     <div id="a2">
-        <label for="answer2">Gives the owner of the file permission to read, write, and execute it </label>
+        <label for="answer2">cp source-destination</label>
         <input type="radio" id="answer2" name="q1"/><br>
     </div>
     <div id="a3">
-        <label for="answer3">Sets the file permission to read only for all users besides the owner</label>
+        <label for="answer3">cp source</label>
         <input type="radio" id="answer3" name="q1"/><br>
     </div>
     <div id="a4">
-        <label for="answer4">Adds the execute permission for the owner of the file</label>
+        <label for="answer4">source sp destination</label>
         <input type="radio" id="answer4" name="q1"/><br>
     </div>
-    <input type="button" value="Submit" id="q1b" onclick="radio('q1', 'answer4', 'q1b')">
+    <input type="button" value="Submit" id="q1b" onclick="radio('q1', 'answer1', 'q1b')">
 </form>
 
 <h2>Question 2</h2>
-<p>Directories with content in them can be deleted with the rmdir command</p>
+<p>It is possible to copy multiple sources in one destination.</p>
 <form>
     <div id="a1">
         <label for="answer1">True</label>
@@ -55,52 +55,31 @@
         <label for="answer2">False </label>
         <input type="radio" id="answer2" name="q2"/><br>
     </div>
-    <input type="button" value="Submit" id="q2b" onclick="radio('q2', 'answer2', 'q2b')">
+    <input type="button" value="Submit" id="q2b" onclick="radio('q2', 'answer1', 'q2b')">
 </form>
 
 <h2>Question 3</h2>
-<p>What numeric value is assigned to the “write” permission?</p>
+<p>What permissions are required when using the cp command?</p>
 <form>
     <div id="a1">
-        <label for="answer1">0</label>
+        <label for="answer1">The source and destination both need all permissions on</label>
         <input type="radio" id="answer1" name="q3"/><br>
     </div>
     <div id="a2">
-        <label for="answer2">1 </label>
+        <label for="answer2">Permissions do not matter when using the cp command</label>
         <input type="radio" id="answer2" name="q3"/><br>
     </div>
     <div id="a3">
-        <label for="answer3">2</label>
+        <label for="answer3">There must be read permissions on the source, and write permissions on the destination</label>
         <input type="radio" id="answer3" name="q3"/><br>
     </div>
     <div id="a4">
-        <label for="answer4">4</label>
+        <label for="answer4">The source does not need specific permissions, but the destination must have execute permissions on</label>
         <input type="radio" id="answer4" name="q3"/><br>
     </div>
     <input type="button" value="Submit" id="q3b" onclick="radio('q3', 'answer3', 'q3b')">
 </form>
 
-<h2>Question 4</h2>
-<p>What is the purpose of the command mkdir?</p>
-<form>
-    <div id="a1">
-        <label for="answer1">To create a new directory</label>
-        <input type="radio" id="answer1" name="q4"/><br>
-    </div>
-    <div id="a2">
-        <label for="answer2">To make changes to an existing directory </label>
-        <input type="radio" id="answer2" name="q4"/><br>
-    </div>
-    <div id="a3">
-        <label for="answer3">To rename a directory</label>
-        <input type="radio" id="answer3" name="q4"/><br>
-    </div>
-    <div id="a4">
-        <label for="answer4">To delete the content of a directory</label>
-        <input type="radio" id="answer4" name="q4"/><br>
-    </div>
-    <input type="button" value="Submit" id="q4b" onclick="radio('q4', 'answer1', 'q4b')">
-</form>
 <br>
 <?php
     include 'assets/inc/footer.php';
