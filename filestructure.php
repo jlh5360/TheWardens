@@ -1,6 +1,7 @@
 <?php
 	$page = 'Filenames';
     $css = 'subpage.css';
+    $script = 'totop.js'; 
 	include 'assets/inc/header_&_nav.php';
 ?>
 
