@@ -1,6 +1,6 @@
 <?php
 	$page = 'Filenames';
-    $css = 'filestructure_styles.css';
+    $css = 'subpage.css';
 	include 'assets/inc/header_&_nav.php';
 ?>
 
