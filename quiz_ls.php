@@ -21,7 +21,7 @@ include 'assets/inc/header_&_nav.php';
     }
 </script>
 
-<h1>Command 'ls' Quiz</h1>
+<h1 id="quiz_header">Command 'ls' Quiz</h1>
 <h2>Question 1</h2>
 <p>What command is used to show information about files in a columnar format?</p>
 <form>

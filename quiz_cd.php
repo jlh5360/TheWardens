@@ -21,7 +21,7 @@
     }
 </script>
 
-<h1>Command 'cd' Quiz</h1>
+<h1 id="quiz_header">Command 'cd' Quiz</h1>
 <h2>Question 1</h2>
 <p>What is the cd command used for?</p>
 <form>

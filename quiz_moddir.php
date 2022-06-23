@@ -46,7 +46,7 @@
             }
 </script>
 
-<h1>Modifying Directories Quiz</h1>
+<h1 id="quiz_header">Modifying Directories Quiz</h1>
 <h2>Question 1</h2>
 <p>What permissions are given to the owner in the numeric code 644?</p>
 <form>

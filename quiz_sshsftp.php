@@ -21,7 +21,7 @@
     }
 </script>
 
-<h1>SSH/SFTP Quiz</h1>
+<h1 id="quiz_header">SSH/SFTP Quiz</h1>
 <h2>Question 1</h2>
 <p>What does SFTP stand for?</p>
 <form>
