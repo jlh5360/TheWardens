@@ -52,11 +52,11 @@
                 <div class="tag">
                     <li id="quizzes" class="tag_option">Quizzes</li>
                     <div class="options">
+                        <li><a href="quiz_ls.php">ls</a></li>
                         <li><a href="quiz_cd.php">cd</a></li>
-                        <li><a href="quiz_moddir.phph">moddir</a></li>
-                        <li><a href="quiz_modfiles">modfiles</a></li>
-                        <li><a href="quiz_">ls</a></li>
-                        <li><a href="quiz_">SSH & SFTP</a></li>
+                        <li><a href="quiz_moddir.php">moddir</a></li>
+                        <li><a href="quiz_modfiles.php">modfiles</a></li>
+                        <li><a href="quiz_sshsftp.php">SSH & SFTP</a></li>
                     </div>
                 </div>
 

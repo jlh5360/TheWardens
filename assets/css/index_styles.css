@@ -24,6 +24,11 @@
     padding-right: 0.5em; */
 }
 
+#quiz_content {
+    position: relative;
+    top: 8em;
+}
+
 #section {
     display: grid;
     grid-template-columns: 1fr;
