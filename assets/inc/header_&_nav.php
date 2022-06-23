@@ -9,7 +9,7 @@
         <script type="text/javascript" src="assets/js/<?php echo $script;?>"></script>
 
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto:wght@100&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto:wght@300&display=swap');
         </style>
     </head>
     <body>
