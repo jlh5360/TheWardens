@@ -94,6 +94,7 @@ nav ul {
 }
 
 #home,
+#references,
 nav ul li {
     /* background-color: aliceblue; */
     text-decoration: none;
@@ -112,6 +113,7 @@ nav ul li {
 #home a,
 #getting_started a,
 #tutorials a,
+#references a,
 #options a {
     text-decoration: none;
     color: white;
