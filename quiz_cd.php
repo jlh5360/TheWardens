@@ -1,5 +1,5 @@
 <?php
-    $page = 'Quiz cd';
+    $page = "Command 'cd' Quiz";
     $css = 'index_styles.css';
     // $css = 'subpage.css';
     $script = '';

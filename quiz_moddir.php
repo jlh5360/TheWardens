@@ -1,5 +1,5 @@
 <?php
-    $page = 'Quiz moddir';
+    $page = "Modifying Directories Quiz";
     $css = 'index_styles.css';
     // $css = 'subpage.css';
     $script = '';

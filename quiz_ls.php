@@ -1,5 +1,5 @@
 <?php
-$page = 'ls Quix';
+$page = "Command 'ls' Quiz";
 $css = 'index_styles.css';
 // $css = 'subpage.css';
 $script = '';
